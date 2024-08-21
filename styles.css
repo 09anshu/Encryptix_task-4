@@ -1,0 +1,108 @@
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    color: darkgray; 
+    background-color: lightgray; 
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+header {
+    background: #004d40; /* Dark Teal */
+    color: white; 
+    padding: 20px 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+.tagline {
+    font-style: italic;
+    margin-top: 10px;
+}
+
+/* Introduction Section */
+#introduction {
+    display: flex;
+    align-items: center;
+    padding: 20px 0;
+    background: white; 
+}
+
+.kalam-photo {
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    margin-right: 20px;
+    border: 5px solid #004d40; /* Dark Teal */
+}
+
+.introduction-text {
+    max-width: 600px;
+}
+
+#introduction h2 {
+    margin-bottom: 10px;
+    color: #004d40; /* Dark Teal */
+}
+
+/* Qualities Section */
+#qualities {
+    background: #e0f2f1; /* Light Teal */
+    padding: 20px 0;
+}
+
+.qualities-list {
+    display: flex;
+    flex-direction: column;
+}
+
+.quality {
+    background: White; 
+    margin-bottom: 15px;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+.quality h3 {
+    color: #004d40; 
+}
+
+/* Impact Section */
+#impact {
+    padding: 20px 0;
+    background: white; 
+    background: white; 
+}
+
+#impact p {
+    font-size: 1.2em;
+    color: darkgray; 
+}
+
+/* Footer */
+footer {
+    background: #004d40; 
+    color: white; 
+    padding: 10px 0;
+    text-align: center;
+}
+
+footer p {
+    margin: 0;
+}
